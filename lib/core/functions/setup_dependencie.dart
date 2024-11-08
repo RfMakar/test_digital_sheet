@@ -2,9 +2,9 @@ import 'package:dio/dio.dart';
 import 'package:test_digital_sheet/core/utils/sl.dart';
 import 'package:test_digital_sheet/data/data_sources/dio_client.dart';
 import 'package:test_digital_sheet/data/data_sources/rest_client.dart';
-import 'package:test_digital_sheet/domain/repository/hotel.dart';
-import 'package:test_digital_sheet/domain/repository/reservation.dart';
-import 'package:test_digital_sheet/domain/repository/room.dart';
+import 'package:test_digital_sheet/domain/repositories/hotel.dart';
+import 'package:test_digital_sheet/domain/repositories/reservation.dart';
+import 'package:test_digital_sheet/domain/repositories/room.dart';
 
 Future<void> setupDependencies() async {
   //Dio

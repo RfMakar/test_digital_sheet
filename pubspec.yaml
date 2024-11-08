@@ -18,7 +18,10 @@ dependencies:
   flutter_localization: ^0.2.2
   freezed: ^2.5.7
   freezed_annotation: ^2.4.4
-
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  introduction_screen: ^3.1.14
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -27,6 +30,10 @@ dev_dependencies:
   retrofit_generator: '>=8.0.0 <10.0.0' 
   build_runner: ^2.4.13
   json_serializable: ^6.8.0
+  flutter_svg: ^2.0.9
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
